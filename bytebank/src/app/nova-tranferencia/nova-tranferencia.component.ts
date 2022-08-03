@@ -5,11 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './nova-tranferencia.component.html',
   styleUrls: ['./nova-tranferencia.component.scss']
 })
-export class NovaTranferenciaComponent implements OnInit {
+export class NovaTranferenciaComponent  {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  
+  transferir() {
+    console.log('Solicitada nova transferência');
   }
 
 }
