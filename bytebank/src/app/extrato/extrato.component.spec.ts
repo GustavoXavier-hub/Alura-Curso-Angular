@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NovaTranferenciaComponent } from './nova-tranferencia.component';
+import { ExtratoComponent } from './extrato.component';
 
-describe('NovaTranferenciaComponent', () => {
-  let component: NovaTranferenciaComponent;
-  let fixture: ComponentFixture<NovaTranferenciaComponent>;
+describe('ExtratoComponent', () => {
+  let component: ExtratoComponent;
+  let fixture: ComponentFixture<ExtratoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NovaTranferenciaComponent ]
+      declarations: [ ExtratoComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NovaTranferenciaComponent);
+    fixture = TestBed.createComponent(ExtratoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
